@@ -1,0 +1,65 @@
+# Gitignore for Python project
+
+# Virtual environment
+.venv/
+.venv311/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# PyTorch
+*.pth
+*.pt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Training logs
+logs/
+runs/
+*.log
+
+# Output files
+output/
+*.csv
+*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Model checkpoints (large files)
+*.ckpt
+checkpoint_*.pth
+
+# Keep directory structure but ignore contents
+input/train/*
+input/clean/*
+input/test/*
+!input/train/.gitkeep
+!input/clean/.gitkeep
+!input/test/.gitkeep
