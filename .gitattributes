@@ -1,0 +1,18 @@
+* text=auto eol=lf
+
+# Treat common binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.bmp binary
+*.tiff binary
+*.pt binary
+*.pth binary
+*.onnx binary
+*.pkl binary
+*.zip binary
+*.tar binary
+*.gz binary
+
+# Keep notebooks as text but avoid CRLF churn
+*.ipynb text eol=lf
